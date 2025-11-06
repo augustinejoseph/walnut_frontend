@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-[#0f172a] to-[#020617] text-gray-100;
+}

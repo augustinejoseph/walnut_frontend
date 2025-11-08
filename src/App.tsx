@@ -117,7 +117,6 @@ const App: React.FC = () => {
       {showEmailModal && (
         <EmailModal
           onSubmit={handleEmailSubmit}
-          onCancel={() => setShowEmailModal(false)}
         />
       )}
       {showEditModal && (
